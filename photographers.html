@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photographers</title>
+</head>
+<style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            margin: 0 20px;
+            display: inline-block;
+        }
+
+        .photographers {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+            max-width: 800px;
+            margin-bottom: 40px;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .photographer {
+            width: 200px;
+            height: 200px;
+            background-color: #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .photographer img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .name {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        header, footer {
+            padding: 1em;
+            color: white;
+            background-color: black;
+            clear: left;
+            text-align: center;
+        }
+</style>
+<body>
+        <header>
+    <center>
+        <a href="index.html">
+        <img src="img/logo.png" width="100">
+    </center>
+    <br><br>
+    <tr>
+        <td><a href="about.html">라이카란?</a></td>
+        <td><a href="history.html">라이카 역사</a></td>
+        <td><a href="photographers.html">유명 사진 작가</a></td>
+        <td><a href="cameras.html">카메라 종류</a></td>
+        <td><a href="gallery.html">사진전</a></td>
+    </tr>
+</header>
+<br><br><br><br>
+
+    <h1>Leica Photographers</h1>
+
+<section class="photographers">
+    <div class="row">
+        <div class="column">
+            <a href="photographer1.html">
+                <div class="photographer">
+                    <img src="img/photographer1.jpg">
+                </div>
+            </a>
+            <div class="name">Henri Cartier-Bresson</div>
+        </div>
+
+        <div class="column">
+            <a href="photographer2.html">
+                <div class="photographer">
+                    <img src="img/photographer2.jpg">
+                </div>
+            </a>
+            <div class="name">Sebastião Salgado</div>
+        </div>
+
+        <div class="column">
+            <a href="photographer3.html">
+                <div class="photographer">
+                    <img src="img/photographer3.jpg">
+                </div>
+            </a>
+            <div class="name">Robert Capa</div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="column">
+            <a href="photographer4.html">
+                <div class="photographer">
+                    <img src="img/photographer4.jpg">
+                </div>
+            </a>
+            <div class="name">Elliott Erwitt</div>
+        </div>
+
+        <div class="column">
+            <a href="photographer5.html">
+                <div class="photographer">
+                    <img src="img/photographer5.jpg">
+                </div>
+            </a>
+            <div class="name">Nobuyoshi Araki</div>
+        </div>
+
+        <div class="column">
+            <a href="photographer6.html">
+                <div class="photographer">
+                    <img src="img/photographer6.jpg">
+                </div>
+            </a>
+            <div class="name">Ralph Gibson</div>
+        </div>
+    </div>
+</section>
+
+    <footer>&copy; 2024 Lee Min Seok. All rights reserved.</footer>
+</body>
+</html>

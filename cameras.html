@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leica Cameras</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+            background-color: white;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            margin: 0 20px;
+            display: inline-block;
+        }
+
+        .cameras {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+        }
+
+        .row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            width: 100%;
+            max-width: 800px;
+            margin-bottom: 40px;
+        }
+
+        .column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .camera {
+            width: 200px;
+            height: 200px;
+            background-color: #ddd;
+            border-radius: 10px;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .camera img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .name {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        header, footer {
+            padding: 1em;
+            color: white;
+            background-color: black;
+            clear: left;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <center>
+            <a href="index.html">
+                <img src="img/logo.png" width="100">
+            </a>
+        </center>
+        <br><br>
+        <nav>
+            <a href="about.html">라이카란?</a>
+            <a href="history.html">라이카 역사</a>
+            <a href="photographers.html">유명 사진 작가</a>
+            <a href="cameras.html">카메라 종류</a>
+            <a href="gallery.html">사진전</a>
+        </nav>
+    </header>
+    <br><br><br><br>
+
+    <h1>Leica Cameras</h1>
+
+    <section class="cameras">
+        <div class="row">
+            <div class="column">
+                <a href="camera1.html">
+                    <div class="camera">
+                        <img src="img/camera1.jpg">
+                    </div>
+                </a>
+                <div class="name">Leica M</div>
+            </div>
+
+            <div class="column">
+                <a href="camera2.html">
+                    <div class="camera">
+                        <img src="img/camera2.jpeg">
+                    </div>
+                </a>
+                <div class="name">Leica SL</div>
+            </div>
+
+            <div class="column">
+                <a href="camera3.html">
+                    <div class="camera">
+                        <img src="img/camera3.jpg">
+                    </div>
+                </a>
+                <div class="name">Leica Q</div>
+            </div>
+        </div>
+
+            <div class="column">
+                <a href="camera5.html">
+                    <div class="camera">
+                        <img src="img/camera5.jpg">
+                    </div>
+                </a>
+                <div class="name">Leica Sofort</div>
+            </div>
+        </div>
+    </section>
+
+    <footer>&copy; 2024 Lee Min Seok. All rights reserved.</footer>
+</body>
+</html>

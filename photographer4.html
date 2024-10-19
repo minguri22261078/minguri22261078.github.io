@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+    <style>
+ body {
+            background-image: url('img/bg.jpg');
+        }
+
+        div.container {
+            width: 100%;
+            border: 1px solid gray;
+            background-image: url('img/background.jpg');
+            background-size: cover;
+            background-position: center;
+            position: relative; 
+        }
+
+        a:link {
+            color: #4B4B4B;
+            text-decoration: none;
+        }
+
+        a:visited {
+            color: #7D7D7D;
+        }
+
+        a:hover {
+            color: #A0A0A0;
+            font-weight: bold;
+        }
+
+        a:active {
+            color: #C0C0C0;
+        }
+
+        header, footer {
+            padding: 1em;
+            color: white;
+            background-color: black;
+            clear: left;
+            text-align: center;
+        }
+
+        nav {
+            float: left;
+            max-width: 160px;
+            margin: 0;
+            padding: 1em;
+            background-color: rgba(242, 242, 242, 0.5);
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            margin-left: auto;
+            margin-right: auto;
+            padding: 1em;
+            overflow: hidden;
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 10px;
+            max-width: 800px;
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .content img {
+            max-width: 500px;
+            margin-right: 20px;
+        }
+
+        .back-button {
+            margin-top: 20px; 
+            display: inline-block;
+            padding: 10px 15px;
+            background-color: #B0B0B0;
+            color: #FFFFFF;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        @media only screen and (max-width: 620px) {
+            div.container, nav, article {
+                width: 100%;
+                margin-left: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <center>
+                <a href="index.html">
+                <img src="img/logo.png" width="100"></a>
+            </center>
+            <h1>Photographers</h1>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="photographer1.html">Henri Cartier-Bresson</a></li>
+                <li><a href="photographer2.html">Sebastião Salgado</a></li>
+                <li><a href="photographer3.html">Robert Capa</a></li>
+                <li><a href="#">Elliott Erwitt</a></li>
+                <li><a href="photographer5.html">Nobuyoshi Araki</a></li>
+                <li><a href="photographer6.html">Ralph Gibson</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <div class="content">
+                <img src="img/dogs.jpg">
+                <div>
+                    <h1>Dogs</h1>
+                    <p>유머러스하고 일상적인 순간을 포착한 사진작가로, 사람들의 감정과 인간관계를 재치있게 표현합니다. 그의 작품은 가벼운 터치와 깊은 메시지를 동시에 전달합니다.</p>
+                </div>
+            </div>
+            <a href="photographers.html" class="back-button">돌아가기</a>
+        </article>
+    </div>
+</body>
+</html>
